@@ -1,0 +1,40 @@
+body
+{
+    background-color: chartreuse;
+
+}
+h1
+{
+color: antiquewhite;
+background-color: black;
+}
+show_sketch
+{
+    float: right;
+}
+canvas
+{
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:50px;
+    animation-name:bob;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes exammple
+{
+    from{
+        box-shadow: 1px 1px 38px cornflowerblue;
+    }
+    to
+    {
+        box-shadow: 1px 1px 38px cornflowerblue;
+    } 
+}
+p
+{
+    padding-top: 10px;
+    font-size:25px;
+}
+
